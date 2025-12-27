@@ -1,0 +1,39 @@
+.form-container {
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 42px;
+  color: #1b5e20;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #1b5e20;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,22 @@
+<h2>🍃Mental Wellness Checkup🍃</h2>
+
+<form (ngSubmit)="calculateScore()">
+  <div *ngFor="let q of questions; let i = index" style="margin-bottom: 15px;">
+    <p><strong>{{ i + 1 }}. {{ q }}</strong></p>
+
+    <select [(ngModel)]="answers[i]" name="answer{{i}}">
+      <option *ngFor="let opt of options" [ngValue]="opt.value">
+        {{ opt.label }}
+      </option>
+    </select>
+  </div>
+
+  <button type="submit">Submit</button>
+</form>
+
+<hr *ngIf="totalScore !== null">
+
+<div *ngIf="totalScore !== null">
+  <h3>Your Score: {{ totalScore }}</h3>
+  <h3>Mental State: {{ anxietyLevel }}</h3>
+</div>

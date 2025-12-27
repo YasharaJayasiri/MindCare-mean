@@ -1,0 +1,8 @@
+/* Global page background */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff9e6; /* pale yellow */
+  color: #2e2e2e;
+}
+/* You can add global styles to this file, and also import other style files */

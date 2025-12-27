@@ -1,0 +1,42 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  background-color: #1b5e20; /* dark green */
+  padding: 15px 25px;
+
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Logout button styling */
+.logout-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.logout-btn:hover {
+  text-decoration: underline;
+}

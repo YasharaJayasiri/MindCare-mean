@@ -1,0 +1,24 @@
+.center-container {
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.welcome-text {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.app-name {
+  font-size: 64px;
+  color: #1b5e20;
+  margin: 0;
+}
+
+.heart {
+  font-size: 96px;
+  margin-top: 15px;
+}

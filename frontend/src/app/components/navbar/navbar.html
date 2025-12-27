@@ -1,0 +1,16 @@
+<nav class="navbar">
+  <!-- PUBLIC NAV -->
+  <div class="nav-links" *ngIf="!isLoggedIn()">
+    <a routerLink="/">Home</a>
+    <a routerLink="/login">Login</a>
+    <a routerLink="/signup">Signup</a>
+  </div>
+
+  <!-- PRIVATE NAV -->
+  <div class="nav-links" *ngIf="isLoggedIn()">
+    <a routerLink="/dashboard">Dashboard</a>
+    <a routerLink="/checkup">Checkup</a>
+    <a routerLink="/resources">Resources</a>
+    <button class="logout-btn" (click)="logout()">Logout</button>
+  </div>
+</nav>
