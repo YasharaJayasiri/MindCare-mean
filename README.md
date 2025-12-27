@@ -1,4 +1,4 @@
-# MindCare 🧠🌿
+# MindCare 🌿
 
 MindCare is a MEAN stack web application designed to help university students
 monitor and improve their mental health.
